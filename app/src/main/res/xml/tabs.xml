@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:tools="http://schemas.android.com/tools">
+    <tab
+        id="@+id/tab_home"
+        title="首页"
+        icon="@drawable/home"
+        activeColor="#1296db"
+         />
+    <tab
+        icon="@drawable/video"
+        activeColor="#1296db"
+        id="@+id/tab_video"
+        title="视频" />
+    <tab
+        icon="@drawable/robot"
+        id="@+id/tab_robot"
+        activeColor="#1296db"
+        title="小羊" />
+    <tab
+        icon="@drawable/more"
+        id="@+id/tab_more"
+        activeColor="#1296db"
+        title="发现" />
+
+    <tab
+        icon="@drawable/user"
+        id="@+id/tab_about"
+        activeColor="#1296db"
+        title="我的" />
+</tabs>

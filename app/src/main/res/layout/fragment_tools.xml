@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:orientation="vertical"
+    tools:context="com.graduation.mygraduation.fragment.ToolsFragment">
+
+    <com.allen.library.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sBackgroundColor="@android:color/holo_blue_bright"
+        stv:sCenterTextColor="@color/white"
+        stv:sCenterTextSize="20sp"
+        stv:sCenterTextString="更多" />
+
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/meizhi"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true"
+        stv:sBottomLineMargin="5dp"
+        stv:sLeftBottomTextColor="#999999"
+        stv:sLeftBottomTextSize="15sp"
+        stv:sLeftBottomTextString="高清无码，你懂得！！！"
+        stv:sLeftIconHeight="60dp"
+        stv:sLeftIconMarginLeft="1dp"
+        stv:sLeftIconRes="@drawable/meizhi"
+        stv:sLeftIconWidth="60dp"
+        stv:sLeftTopTextSize="18sp"
+        stv:sLeftTopTextString="妹纸集中营"
+        stv:sLineColor="@android:color/background_light"
+        stv:sLineShow="top"
+        stv:sRightIconRes="@drawable/right"
+        stv:sUseRipple="true" />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true"
+        stv:sBothLineMarginLeft="60dp"
+        stv:sBottomLineMargin="5dp"
+        stv:sLeftBottomTextColor="#999999"
+        stv:sLeftBottomTextSize="15sp"
+        stv:sLeftBottomTextString="历史上的今天，你造吗？"
+        stv:sLeftIconHeight="60dp"
+        stv:sLeftIconMarginLeft="1dp"
+        stv:sLeftIconRes="@drawable/history"
+        stv:sLeftIconWidth="60dp"
+        stv:sLeftTopTextSize="18sp"
+        stv:sLeftTopTextString="历史百科"
+        stv:sLineColor="@android:color/background_light"
+        stv:sLineShow="top"
+        stv:sRightIconRes="@drawable/right"
+        stv:sUseRipple="true" />
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/duanzi"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true"
+        stv:sBottomLineMargin="5dp"
+        stv:sLeftBottomTextColor="#999999"
+        stv:sLeftBottomTextSize="15sp"
+        stv:sLeftBottomTextString="搞笑段子，你懂得！！！"
+        stv:sLeftIconHeight="60dp"
+        stv:sLeftIconMarginLeft="1dp"
+        stv:sLeftIconRes="@drawable/joke"
+        stv:sLeftIconWidth="60dp"
+        stv:sLeftTopTextSize="18sp"
+        stv:sLeftTopTextString="段子手"
+        stv:sLineColor="@android:color/background_light"
+        stv:sLineShow="both"
+        stv:sRightIconRes="@drawable/right"
+        stv:sTopLineMarginLeft="60dp"
+        stv:sUseRipple="true" />
+
+
+</LinearLayout>

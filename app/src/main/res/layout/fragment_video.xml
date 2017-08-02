@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightyellow"
+    android:orientation="vertical"
+    tools:context="com.graduation.mygraduation.fragment.VideoFragment">
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/super_video"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/style_color"
+        app:sCenterTextColor="@color/white"
+        app:sCenterTextSize="20sp"
+        app:sCenterTextString="直播列表" />
+
+    <ExpandableListView
+        android:id="@+id/expandable_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+
+</LinearLayout>

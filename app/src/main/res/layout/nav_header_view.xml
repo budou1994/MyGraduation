@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/nav_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beauty" />
+
+    <ImageView
+        android:id="@+id/nav_title_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+      />
+
+    <TextView
+        android:id="@+id/nav_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/nav_title_img"
+        android:text="布兜"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
+    <TextView
+        android:id="@+id/nav_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_title_img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:text="1550990175@qq.com"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:text="毕业设计项目，请勿用作商业用途."
+        android:textColor="@color/white" />
+</RelativeLayout>

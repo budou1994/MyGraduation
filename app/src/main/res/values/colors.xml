@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent_50">#50000000</color><!--透明色50%-->
+    <color name="transparent">#00000000</color><!--透明色-->
+    <color name="white">#F1F1F1</color><!--白色 -->
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+    <color name="lightyellow">#FFFFE0</color><!--亮黄色 -->
+    <color name="yellow">#FFFF00</color><!--黄色 -->
+    <color name="snow">#FFFAFA</color><!--雪白色 -->
+    <color name="line">#999999</color>
+    <color name="tab_bottom">#eff4f1</color> <!--底部导航颜色 -->
+    <color name="text_n">#787676</color>
+    <color name="text_s">#5EA5EF</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="首页">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_news"
+                    android:icon="@drawable/home"
+                    android:title="主页" />
+                <item
+                    android:id="@+id/nav_video"
+                    android:icon="@drawable/video"
+                    android:title="视频" />
+                <item
+                    android:id="@+id/nav_robot"
+                    android:icon="@drawable/robot"
+                    android:title="小羊" />
+                <item
+                    android:id="@+id/nav_more"
+                    android:icon="@drawable/more"
+                    android:title="发现" />
+                <item
+                    android:id="@+id/nav_my"
+                    android:icon="@drawable/user"
+                    android:title="我的" />
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/nav_clear_cache"
+                android:icon="@drawable/ic_setting"
+                android:title="清理缓存" />
+            <item
+                android:id="@+id/nav_version_update"
+                android:icon="@drawable/ic_version_update"
+                android:title="版本更新" />
+
+        </menu>
+    </item>
+
+</menu>

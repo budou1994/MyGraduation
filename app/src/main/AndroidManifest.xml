@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.graduation.mygraduation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/my_img"
+        android:label="@string/app_name"
+        android:name=".commons.MyApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.StartActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".activity.WebShowActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activity.NewsDataShowActivity" />
+        <activity android:name=".activity.BeautyGirlActivity" />
+        <activity android:name=".activity.JokeActivity" />
+        <activity android:name=".activity.TodayActivity" />
+        <activity android:name=".activity.TodayDetailActivity" />
+        <activity
+            android:name=".activity.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ShowVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+    </application>
+
+</manifest>
